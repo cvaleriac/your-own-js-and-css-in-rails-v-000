@@ -1,5 +1,3 @@
-function hideWhenClicked(){
-  $('#hide_this').css({'visibility':'hidden'})
+function hideWhenClicked() {
+    $('#hide_this').hide();
 }
-
-$('#hide_this').click(hideWhenClicked)
